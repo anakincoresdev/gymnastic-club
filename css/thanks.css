@@ -1,0 +1,23 @@
+.thanks {
+    background: #000;
+}
+
+.thanks__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    color: #ffffff;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.thanks__link {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.thanks__link:hover {
+    text-decoration: none;
+}

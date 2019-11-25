@@ -1,0 +1,356 @@
+
+@media (min-width: 1450px) {
+    .header__link, .header__phone {
+        font-size: 20px;
+    }
+    .header__content {
+        height: 80px;
+    }
+    .hero__logo {
+        width: 700px;
+        margin-bottom: 200px;
+    }
+    .hero__slide-img {
+        width: 550px;
+        flex-basis: 550px;
+    }
+    .hero__slide-title {
+        font-size: 22px;
+    }
+    .hero__slide-text {
+        font-size: 18px;
+    }
+    .hero__slider-container {
+        width: 900px;
+    }
+    .hero__form {
+        width: 400px;
+    }
+    .hero__form-input, .hero__form-input::placeholder {
+        font-size: 18px;
+    }
+    .hero__slide-info {
+        flex: 1;
+    }
+}
+
+@media (min-width: 1750px) {
+    .hero__logo {
+        width: 800px;
+        margin-bottom: 100px;
+    }
+    .hero__slide-img {
+        flex-basis: 600px;
+    }
+    .hero__slider-container {
+        width: 1100px;
+    }
+}
+
+@media (max-width: 1560px) {
+    .gallery__video {
+        height: 350px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: 95%;
+    }
+    .header__link {
+        font-size: 12px;
+    }
+    .hero {
+        padding-top: 60px;
+    }
+    .hero__slide-img {
+        width: 250px;
+    }
+    .hero__slider-container {
+        width: 600px;
+    }
+    .hero__form {
+        width: 260px;
+        padding: 15px;
+    }
+    .hero__form-title {
+        font-size: 16px;
+    }
+    .variations__item {
+        margin: 0 10px;
+    }
+    .trainers {
+        background: none;
+    }
+    .reasons__li {
+        font-size: 18px;
+    }
+    .reasons__li-num {
+        font-size: 20px;
+    }
+    .tabs {
+        width: 100%;
+    }
+    .gallery__content {
+        width: 700px;
+    }
+    .gallery__video {
+        height: 250px;
+    }
+}
+
+@media (max-width: 950px) {
+    .hero__content {
+        flex-direction: column;
+    }
+    .hero__main {
+        margin-bottom: 50px;
+        text-align: center;
+        width: 100%;
+    }
+    .hero__slider {
+        text-align: left;
+    }
+    .hero__logo {
+        margin-bottom: 30px;
+    }
+    .hero {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .hero__form {
+        width: 80%;
+    }
+    .hero__slider-container {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .variations__items {
+        flex-direction: column;
+        align-items: center;
+    }
+    .variations__item {
+        margin-bottom: 30px;
+        width: auto;
+    }
+    .variations__container {
+        padding: 50px 0;
+    }
+    .title {
+        font-size: 24px;
+    }
+    .trainers__items {
+        flex-direction: column;
+        align-items: center;
+    }
+    .trainers__item {
+        width: auto;
+    }
+    .benefits__item-img {
+        width: 100px;
+        height: 100px;
+    }
+    .benefits__item-info {
+        font-size: 20px;
+    }
+    .reviews__item .reviews__item-info {
+        font-size: 14px;
+    }
+    .reviews__item-img {
+        width: 120px;
+    }
+}
+
+@media (max-width: 828px) {
+    .header__link:not(.header__vk) {
+        display: none;
+    }
+    .header__vertical-line {
+        display: none;
+    }
+    .header__phone {
+        font-size: 22px;
+        padding-right: 10px;
+    }
+    .benefits__item:first-child {
+        margin-left: 10px;
+    }
+    .benefits__item:last-child {
+        margin-right: 10px;
+    }
+    .benefits__item {
+        width: 40%;
+        margin: 0 10px 20px;
+    }
+    .reasons__li {
+        margin-bottom: 10px;
+    }
+    .gallery__content {
+        width: 90%;
+    }
+    .gallery__video {
+        width: 100%;
+        height: 400px;
+    }
+    .gallery__videos {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 650px) {
+    .hero__slide-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .hero__slide-img {
+        width: 60%;
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+    .hero__logo {
+        width: 90%;
+    }
+    .hero__form {
+        width: 100%;
+    }
+    .hero__main {
+        margin-bottom: 20px;
+    }
+    .variations__form {
+        display: flex;
+        flex-direction: column;
+    }
+    .variations__form-title {
+        font-size: 16px;
+    }
+    .variations__items {
+        margin-bottom: 20px;
+    }
+    .variations__form-input {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .trainers {
+        padding: 40px 0;
+    }
+    .benefits {
+        padding: 40px 0;
+    }
+    .title {
+        font-size: 18px;
+    }
+    .benefits__item-info {
+        font-size: 14px;
+    }
+    .benefits__form-title {
+        font-size: 16px;
+    }
+    .benefits__form-fields {
+        display: flex;
+        flex-direction: column;
+    }
+    .benefits__form-input {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    .reasons {
+        padding: 40px 0;
+    }
+    .reasons__list {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 10px;
+    }
+    .reasons__main {
+        margin-top: 30px;
+    }
+    .reasons__li {
+        font-size: 16px;
+    }
+    .reasons__li-num {
+        font-size: 16px;
+    }
+    .reviews__content {
+        padding: 40px 0;
+    }
+    .reviews__item, .reviews__item:nth-child(2n) {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .reviews__item .reviews__item-info, .reviews__item:nth-child(2n) .reviews__item-info {
+        text-align: center;
+        margin: 0;
+        width: auto;
+        padding: 0 15px;
+    }
+    .reviews__form-title {
+        font-size: 16px;
+    }
+    .reviews__form-fields {
+        flex-direction: column;
+        display: flex;
+    }
+
+    .reviews__form-input {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .contacts {
+        padding: 40px 0;
+        background: #3a3a3a;
+    }
+
+    .contacts__title {
+        font-weight: 900;
+    }
+
+    .tabs__content img {
+        height: 200px;
+        margin-top: 5px;
+    }
+
+    .tabs__content iframe {
+        height: 250px;
+    }
+
+    .tabs__caption {
+        height: 40px;
+    }
+
+    .tabs__content {
+        padding: 5px;
+    }
+
+    .tabs__caption li {
+        font-size: 13px;
+        padding: 10px 5px;
+        height: 100%;
+    }
+
+    .gallery {
+        padding: 30px 0;
+    }
+
+    .gallery__title {
+        margin-bottom: 20px;
+    }
+
+    .gallery__link {
+        height: 80px;
+    }
+    .gallery__video {
+        height: 250px;
+    }
+}
+
+@media (max-width: 410px) {
+    .header__phone {
+        font-size: 18px;
+    }
+    .gallery__video {
+        height: 200px;
+    }
+}

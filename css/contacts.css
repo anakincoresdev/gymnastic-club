@@ -1,0 +1,49 @@
+.contacts {
+    text-align: center;
+    color: #ffffff;
+    padding: 80px 0;
+    background: url('../img/contacts_bg.jpg') no-repeat;
+    background-position: 50% 50%;
+}
+
+.contacts__title {
+    margin-bottom: 40px;
+}
+
+.tabs {
+    display: inline-block;
+    width: 70%;
+}
+
+.tabs__caption {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.tabs__caption li {
+    cursor: pointer;
+    list-style: none;
+    padding: 10px 20px;
+    background: gray;
+    flex: 1;
+}
+
+.tabs__caption li.active {
+    background: #1d1d1d;
+    color: #C35EAE;
+    font-weight: 900;
+}
+
+.tabs__content {
+    padding: 20px;
+    background: #1d1d1d;
+}
+
+.tabs__content img {
+    width: 100%;
+    margin-top: 20px;
+    object-fit: cover;
+    height: 400px;
+}
